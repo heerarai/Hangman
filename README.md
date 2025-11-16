@@ -1,14 +1,16 @@
-Hangman – Java Console Game
+# Hangman
 
 Authors: Suhani Rai, Joshua Kim
 
-Overview
+## Overview
 
 This program is a simple, text-based Hangman game written in Java.
 The game randomly selects a word from a provided .txt file (or a default list if the file is empty or missing).
 The user then tries to guess the word one letter at a time before reaching 9 incorrect attempts.
 
-Features
+ ---
+
+## Features
 
 - Randomly selects a secret word from a file or from 5 default fallback words
 - Displays underscores for each unguessed letter
@@ -20,7 +22,9 @@ Features
   - The user reaches 9 incorrect attempts 
 - Uses a do-while loop to manage the main game cycle
 
-File Input
+___
+
+## File Input
 
 - The program expects one argument, the name of a .txt file containing words.
 - Each line in the file is treated as a separate playable word.
@@ -33,8 +37,10 @@ File Input
     - apple
     - icecream
     - bluetooth
-  
-Program Flow
+
+___
+
+## Program Flow
 
 - Load words from file
 - Randomly choose one word
